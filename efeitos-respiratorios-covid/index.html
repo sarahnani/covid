@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Play:wght@400;700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Grupo 4 - COVID</title>
+    </head>
+    <body>
+        <main id="consultorio">
+            <div class="esquerda">
+                <div class="esq-esquerda">
+                    <img src="assets/raiox-apagado.svg" alt="raio-x" id="raiox-apagado">
+                    <div id="botao-vermelho"></div>
+                    <img src="assets/raiox-aceso.svg" alt="raio-x" id="raiox-aceso">
+                    <div id="botao-verde"></div>
+                    <img src="assets/raio-x.svg" alt="raio-x" id="raio-x" class="click">
+                </div>
+                <div class="esq-direita">
+                    <img src="assets/porta-fechada-azul.svg" alt="porta" id="porta-fechada-azul">
+                    <!-- <img src="assets/macaneta-azul.svg" alt="maçaneta da porta" id="macaneta-azul"> -->
+                </div>
+            </div>
+            <div class="direita">
+                <div id="dir-teto">
+                    <div id="dir-prateleira">
+                        <img src="assets/vacina.svg" alt="vacina" id="vacina" class="click">
+                        <img src="assets/prateleira.svg" alt="prateleira" id="prateleira">
+                        <img src="assets/arquivo.svg" alt="pasta de arquivos" id="arquivo" class="click">
+                    </div>
+                    <div id="dir-foto">
+                        <img src="assets/foto.svg" alt="foto" id="foto" class="click">
+                    </div>
+                </div>
+                <div id="dir-medico">
+                    <img src="assets/medico.svg" alt="medico sentado na frente do computador" id="medico">
+                    <img src="assets/computador.svg" alt="computador" id="computador" class="click">
+                </div>
+            </div>            
+        </main>
+        <main id="recepcao">
+            <div class="esquerda">
+                <div class="esq-esquerda">
+                    <div id="esq-placa">
+                        <img src="assets/use-mascara.svg" alt="placa de use mascara" id="use-mascara" class="click">
+                    </div>
+                    <div id="esq-mesinha">
+                        <img src="assets/mesinha.svg" alt="mesa de canto com relógio" id="mesinha">
+                        <div id="relogio">
+                            <span id="hora">00:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="esq-direita">
+                    <img src="assets/porta-fechada-rosa.svg" alt="porta" id="porta-fechada-rosa">
+                    <!-- <img src="assets/porta-aberta-rosa.svg" alt="porta aberta" id="porta-aberta-rosa"> -->
+                    <!-- <img src="assets/macaneta-rosa.svg" alt="maçaneta da porta" id="macaneta-rosa"> -->
+                </div>
+            </div>
+            <div class="direita">
+                <div id="dir-quadro">
+                    <img src="assets/mapa.svg" alt="quadro com mapa do mundo" id="quadro" class="click">
+                </div>
+                <div id="dir-vaso">
+                    <img src="assets/planta.svg" alt="vaso com planta" id="planta">
+                </div>
+            </div>
+        </main>
+        <section id="info">
+            <div id="site-cabecalho">
+                <i class='bx bx-minus'></i>
+                <i class='bx bx-copy' id="maximizar"></i>
+                <i class='bx bx-x' id="fechar"></i>
+            </div>
+            <div id="site-corpo">
+                <div id="txt-raiox">
+                    <p>Ao entrar em contato com a mucosa humana (nariz, boca ou olho) o vírus se multiplica de forma despercebida dentro do sistema respiratório e, na maioria dos casos, o sistema imunológico consegue combater o SARS-CoV-2 de forma eficaz, apresentando sintomas leves e de rápida recuperação. Porém, caso o sistema imune não consiga combater o vírus nesse ponto, o quadro progride pelo trato respiratório até os alvéolos pulmonares.</p>
+                    <p>No pulmão, o vírus ataca principalmente os alvéolos (pequenos sacos de ar que ficam dentro dos pulmões e são responsáveis pelas trocas gasosas que oxigenam o sangue e, respectivamente, o corpo todo). Ao entrar no sangue, o vírus afeta a capacidade de transporte de oxigênio do corpo todo, desencadeando um processo inflamatório intenso. O corpo então começa a produzir citocinas em excesso para controlar essa infecção, desencadeando uma resposta imune desregulada no hospedeiro, podendo levar à SRAG (Sindrome Respiratória Aguda Grave) ou à falência extrapulmonar de múltiplos órgãos, principalmente fígado e rins.</p>
+                    <p>Além da Covid-19 causada pelo vírus, o paciente pode apresentar pneumonia causada por bactérias, já que o pulmão fica fragilizado e suscetível à entrada das mesmas, piorando ainda mais o estado crítico da pessoa.</p>
+                </div>
+                <div id="txt-vacina">
+                    <p>Um estudo feito pela Fiocruz Bahia, com dados de 18 de janeiro e 24 de julho de 2021 e 75.919.840 pessoas vacinadas (uma ou duas doses da vacina), concluiu-se que:</p>
+                    <p>Para pessoas que receberam as duas doses da vacina AstraZeneca, o estudo revela que a porcentagem de eficácia foi de:
+                        <ul>
+                            <li>72,9% contra infecção;</li>
+                            <li>88% contra hospitalização;</li>
+                            <li>89,1% contra internação em UTI e;</li>
+                            <li>90,2% contra óbitos.</li>
+                        </ul>
+                    </p>
+                    <p>Já com os vacinados com a CoronaVac, estão protegidos com uma porcentagem de:
+                        <ul>
+                            <li>52,7% contra infecção;</li>
+                            <li>72,8% contra hospitalização;</li>
+                            <li>73,8% contra internação em UTI e;</li>
+                            <li>73,7% contra óbitos.</li>
+                        </ul>
+                        O estudo ainda fala que se diminui a eficácia entre as pessoas mais velhas.
+                    </p>
+                    <p>Uma discussão importante a se fazer é sobre a incidência das variantes do vírus SARS-CoV-2 e a eficácia das vacinas já existentes sobre essas variações. Um estudo feito pela Universidade de Barcelona, chegou à conclusão que vacinas fabricadas com a tecnologia de vírus inativado como é o caso da CoronaVac, são mais eficazes em médio/longo prazo contra as variantes da SARS-CoV-2. Isso acontece, pois a vacina com vírus inativado desenvolve uma resposta imune e celular mais ampla no corpo. Entretanto, todas as vacinas que estão sendo aplicadas são eficazes, e devem ser tomadas para a superação da pandemia.</p>
+                </div>
+                <div id="txt-virus">
+                    <p>O coronavírus pertence à Família <span class="italico">Coronaviridae</span>, Gênero <span class="italico">Betacoronavirus</span> e Espécie <span class="italico">SARS-CoV-2</span>. Ele é um vírus de RNA que possui envelope com características que lembram uma coroa, a qual estão presentes proteínas S (denominada Spike).</p>
+                    <p>O coronavírus entra no interior das células humanas, pela interação entre a proteína S (presente na superfície do vírus) e uma outra proteína presente na membrana das células humanas (ECA2 - Enzima Conversora de Angiotensina 2), semelhante à chave-fechadura. Uma vez no interior da célula, o coronavírus libera o seu RNA e começa a utilizar parte das organelas da célula humana, como os ribossomos, para que a mensagem contida no RNA viral seja lida e traduzida em novas moléculas (conhecida como vírions).</p>
+                </div>
+                <div id="txt-foto">
+                    <p>A Organização Mundial da Saúde (2020) recomenda como uma das estratégias de combate ao COVID-19, o isolamento social. Dessa forma é possível rastrear a circulação e evolução do vírus em tempo real, diminuir a intensidade de contágio populacional, retardar eventuais mutações significativas do vírus e o sobrecarregamento do sistema de saúde.</p>
+                    <p>A pandemia impôs uma nova realidade à sociedade e o isolamento é um fator que tem causado uma questão em paralelo com o COVID-19: a preocupação com a saúde mental. As novas restrições da vida social relacionadas ao isolamento têm gerado e agravado transtornos psicológicos e psiquiátricos que vem sendo identificado como um fenômeno de fadiga pandêmica, segundo a OMS, caracterizado pelo esgotamento físico e mental que pode potencializar o desenvolvimento de transtornos como ansiedade e depressão.</p>
+                    <p>Há muito material disponível na internet relacionado a como cuidar do aspecto psicológico durante a pandemia para lidar melhor com a obrigatoriedade do isolamento por ser uma medida fundamental no combate à doença.</p>
+                </div>
+                <div id="txt-mascara">
+                    <p>A principal forma de transmissão do coronavírus acontece por meio da inalação de gotículas expelidas em uma superfície ou suspensas no ar através de espirro ou tosse de uma pessoa contaminada. Dessa forma, a utilização de máscaras faz parte de uma série de medidas preventivas essenciais para diminuir o risco de transmissão e infecção.</p>
+                    <p>A máscara em si tem a capacidade de filtrar partículas contaminantes tendo o seu grau de eficiência atrelado ao material que constitui a máscara, além do seu uso adequado: cobrindo o nariz e a boca.</p>
+                    <p>Um estudo recente do Instituto de Física da Universidade de São Paulo (USP) constatou que entre as opções de máscaras disponíveis no mercado, a capacidade de retenção de micropartículas são maiores nos modelos PFF2 e N95, depois a cirúrgica, em seguida as de fibras de TNT e por último as de algodão. No entanto, é importante ressaltar que o uso correto das máscaras é fundamental independente do material quando não houver a opção de usar as que melhor impermeabilizam o usuário do contágio.</p>
+                </div>
+                <div id="txt-quadro">
+                    <p>O início da pandemia ocorreu na cidade de Wuhan - pertencente à província de Hubei - localizada na República Popular da China após o registro de inúmeros casos de pneumonia, em 31 de dezembro de 2019. Mesmo a China sendo o país de início, o controle local da pandemia foi bem sucedido ao levar em consideração o tamanho de sua população (1,439,323,776). O país soma 98,544 casos e 4,636 óbitos pelo vírus (até 22 de novembro de 2021).</p>
+                    <p>No Brasil, o primeiro caso de COVID-19 foi confirmado em 26 de fevereiro de 2020. O país soma 22,012,150 casos e 612,587 óbitos por Covid-19 (até 22 de novembro de 2021), ficando em terceiro lugar com o maior número absoluto de casos do mundo: ficando atrás apenas dos Estados Unidos (47,686,014) e Índia (34,510,413). E em segundo lugar no número absoluto de mortes, atrás apenas dos EUA (769,731).</p>
+                    <p>Entretanto, os dados brasileiros, principalmente com relação ao número de casos, provavelmente estão subestimados, já que o país dentre os dez países mais afetados pelo covid-19 foi o que menos testou sua população tanto em termos absolutos - com 63,776,166 pessoas testadas - quanto relativos - com 297,137 testes - a cada milhão de habitantes. Logo, se deduz que o número de casos e de mortes pelo vírus, são ainda maiores.</p>
+                </div>
+                <div id="txt-arquivo">
+                    <p>Este site foi criado para apresentar o trabalho sobre Efeitos Respiratórios da COVID-19, da disciplina de Fisiologia e Anatomia Humana na Universidade Federal de São Carlos - <span class="italico">campus</span> Sorocaba.</p>
+                    <p>Os alunos integrantes do grupo são:
+                        <ul>
+                            <li>Sarah Leticia Nani - RA: 586463</li>
+                            <li>Pablo Rabello de Oliveira - RA: 743787</li>
+                            <li>Liamar Erika Morioka - RA: 726745</li>
+                        </ul>
+                    </p>
+                    <p>Este site foi criado por <a href="https://www.linkedin.com/in/sarahnani/" target="_blank">Sarah</a> e você pode acompanhar meus outros projetos <a href="https://github.com/sarahnani" target="_blank">aqui</a>!</p>
+                    <h1>Referências:</h1>
+                    <p>TOLEDO, Karina. Estudo avalia eficiência de filtragem de 227 tipos de máscaras vendidas no Brasil. Agência FAPESP. 04 de maio de 2021. Disponível em: Estudo avalia eficiência de filtragem de 227 tipos de máscara vendidos no Brasil | AGÊNCIA FAPESP. Acesso em 19 de novembro de 2021.</p>
+                    <p>MORAIS, Fernando G et al. Filtration efficiency of a large set of COVID-19 face masks commonly used in Brazil. Aerosol Science and Technology. São Paulo, vol. 55, páginas 1028-1041, abril de 2021. Disponível em: Filtration efficiency of a large set of COVID-19 face masks commonly used in Brazil: Aerosol Science and Technology: Vol 55, No 9 (tandfonline.com). Acesso em 19 de novembro de 2021.</p>
+                    <p>CAMPOS, Erick C et al. Relatório Técnico: Impactos da Pandemia de COVID-19 sobre os Sintomas de Ar Condicionado e Climatização. Universidade Federal de Juiz de Fora, 2020. Disponível em: Microsoft Word - Relatorio Covid-19 ar condicionado (3) (ufjf.br). Acesso em 19 de novembro de 2021.</p>
+                    <p>WORLD HEALTH ORGANIZATION. Página de busca sobre distanciamento social com recomendações contínuas desde o início da pandemia. Disponível em: Doença coronavírus - Respostas (who.int). Acesso em 19 de novembro de 2021.</p>
+                    <p>BRASIL. Ministério da Saúde. Realidade imposta pela pandemia pode gerar transtornos mentais e agravar quadros existentes. outubro de 2021. Disponível em: Realidade imposta pela pandemia pode gerar transtornos mentais e agravar quadros existentes — Português (Brasil) (www.gov.br). Acesso em 19 de novembro de 2021.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>

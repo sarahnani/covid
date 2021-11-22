@@ -1,0 +1,425 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* GERAL */
+.esquerda {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.esq-esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.esq-direita {
+    width: 50%;
+    height: 100%;
+}
+
+p {
+    line-height: 25px;
+}
+
+.italico {
+    font-style: italic;
+    font-size: 18px;
+    color: #5A5A5A;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    color: #2A4D70;
+}
+
+/* CONSULTORIO */
+#consultorio {
+    display: none;
+    width: 1100px;
+    height: 500px;
+    background-image: url("../assets/fundo-consultorio.svg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#dir-teto {
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+#dir-prateleira {
+    width: 60%;
+    height: 100%;
+}
+
+#dir-foto {
+    width: 40%;
+    height: 100%;
+}
+
+#dir-medico {
+    width: 100%;
+    height: 70%;
+}
+
+/* RECEPÇÃO */
+#recepcao {
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    background-image: url("../assets/fundo-recepcao.svg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#esq-placa {
+    width: 100%;
+    height: 50%;
+}
+
+#esq-mesinha {
+    width: 100%;
+    height: 50%;
+}
+
+#dir-quadro {
+    width: 100%;
+    height: 50%;
+}
+
+#dir-vaso {
+    width: 100%;
+    height: 50%;
+}
+
+/* IMAGENS CONSULTÓRIO */
+img {
+    position: relative;
+}
+
+#raiox-apagado {
+    width: 210px;
+    height: 140px;
+    top: 83px;
+    left: 32px;
+    visibility: visible;
+}
+
+#raiox-aceso {
+    width: 210px;
+    height: 140px;
+    bottom: 64px;
+    left: 32px;
+    visibility: hidden;
+}
+
+#botao-vermelho {
+    background-color: #FF0000;
+    width: 16px;
+    height: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #000;
+    position: relative;
+    bottom: 56px;
+    left: 209px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#botao-vermelho:hover {
+    animation: botao-vermelho 2s infinite;
+}
+
+#botao-verde {
+    background-color: #006d19;
+    width: 16px;
+    height: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #000;
+    position: relative;
+    bottom: 202px;
+    left: 186px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#botao-verde:hover {
+    animation: botao-verde 2s infinite;
+}
+
+#raio-x {
+    width: 190px;
+    height: 118px;
+    bottom: 189px;
+    left: 41px;
+    visibility: hidden;
+}
+
+#porta-fechada-azul {
+    top: 29px;
+    right: -8px;
+    cursor: pointer;
+}
+
+/* #macaneta-azul {
+    position: relative;
+    bottom: 200px;
+    left: 178px;
+}
+
+#macaneta-azul:hover {
+    animation: girar 1s forwards; 
+}*/
+
+#vacina {
+    top: 12px;
+    left: 17px;
+    z-index: 1;
+}
+
+#prateleira {
+    top: 29px;
+    right: 76px;
+}
+
+#arquivo {
+    bottom: 80px;
+    left: 164px;
+}
+
+#foto {
+    top: 38px;
+    left: 103px;
+}
+
+#medico {
+    bottom: 50px;
+    left: 72px;
+}
+
+#computador {
+    bottom: 260px;
+    right: 300px;
+}
+
+/* IMAGENS RECEPÇÃO */
+
+#use-mascara{
+    top: 58px;
+    left: 137px;
+}
+
+#mesinha {
+    bottom: 40px;
+    left: 56px;
+}
+
+#relogio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 280px;
+    left: 97px;
+    width: 70px;
+    height: 22px;
+}
+
+#hora {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #78625F;
+}
+
+#porta-fechada-rosa {
+    top: 29px;
+    right: 1px;
+    cursor: pointer;
+    visibility: visible;
+}
+
+/* #porta-aberta-rosa {
+    bottom: 381px;
+    right: 1px;
+    visibility: hidden;
+} */
+
+/* #macaneta-rosa {
+    position: relative;
+    bottom: 200px;
+    left: 170px;
+} */
+
+#quadro {
+    top: 47px;
+    right: 9px;
+}
+
+#planta {
+    bottom: 120px;
+    left: 292px;
+}
+
+/* INFORMAÇÕES */
+#info {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    border: 2px solid #78625F;
+    z-index: 1;
+}
+
+#site-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 30px;
+    background-color: #AFB6B7;
+}
+
+#site-corpo {
+    width: 100%;
+    height: 320px;
+    background-color: #E7E8E8;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #5A5A5A;
+}
+
+#maximizar {
+    font-size: 16px;
+}
+
+#fechar:hover {
+    color: #CF0E0E;
+    cursor: pointer;
+}
+
+/* TEXTOS INFORMATIVOS */
+#txt-raiox {
+    display: none;
+}
+
+#txt-vacina {
+    display: none;
+}
+
+#txt-virus {
+    display: none;
+}
+
+#txt-foto {
+    display: none;
+}
+
+#txt-mascara {
+    display: none;
+}
+
+#txt-quadro {
+    display: none;
+}
+
+#txt-arquivo {
+    display: none;
+}
+
+/* ANIMAÇÃO ITENS CLICAVEIS*/
+
+@keyframes click {
+    15%
+    {transform: translateX(5px);}
+    30%
+    {transform: translateX(-5px);}
+    50%
+    {transform: translateX(3px);}
+    65%
+    {transform: translateX(-3px);}
+    80%
+    {transform: translateX(2px);}
+    100%
+    {transform: translateX(0);}
+}
+
+.click:hover {
+    animation: click 1s ease;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+/* ANIMAÇÃO BOTÃO */
+@keyframes botao-vermelho {
+    15%
+    {background-color: #FF0000;}
+    30%
+    {background-color: #660000;}
+    50%
+    {background-color: #FF0000;}
+    65%
+    {background-color: #660000;}
+    80%
+    {background-color: #FF0000;}
+    100%
+    {background-color: #660000;}
+}
+
+@keyframes botao-verde {
+    15%
+    {background-color: #00FF3D;}
+    30%
+    {background-color: #006d19;}
+    50%
+    {background-color: #00FF3D;}
+    65%
+    {background-color: #006d19;}
+    80%
+    {background-color: #00FF3D;}
+    100%
+    {background-color: #006d19;}
+}
+
+/* ANIMAÇÃO MAÇANETA */
+@keyframes girar {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(-45deg);}
+}
+
+/* @keyframes macaneta-azul {
+    #macaneta-azul {
+        animation: girar 3s ease;
+    }
+} */
