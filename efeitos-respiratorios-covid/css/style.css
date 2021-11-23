@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -9,6 +10,15 @@ body {
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    width: 1100px;
+    height: 30px;
+    position: relative;
+    bottom: 30px;
 }
 
 /* GERAL */
@@ -51,6 +61,12 @@ a {
     all: unset;
     cursor: pointer;
     color: #2A4D70;
+}
+
+.license {
+    margin: 0 0 0 20px;
+    font-size: 12px;
+    opacity: 60%;
 }
 
 /* CONSULTORIO */
@@ -179,7 +195,7 @@ img {
 
 #porta-fechada-azul {
     top: 29px;
-    right: -8px;
+    left: 8px;
     cursor: pointer;
 }
 
@@ -246,14 +262,14 @@ img {
 
 #porta-fechada-rosa {
     top: 29px;
-    right: 1px;
+    left: 8px;
     cursor: pointer;
     visibility: visible;
 }
 
 #quadro {
     top: 47px;
-    right: 9px;
+    left: 2px;
 }
 
 #planta {
