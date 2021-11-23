@@ -183,16 +183,6 @@ img {
     cursor: pointer;
 }
 
-/* #macaneta-azul {
-    position: relative;
-    bottom: 200px;
-    left: 178px;
-}
-
-#macaneta-azul:hover {
-    animation: girar 1s forwards; 
-}*/
-
 #vacina {
     top: 12px;
     left: 17px;
@@ -260,18 +250,6 @@ img {
     cursor: pointer;
     visibility: visible;
 }
-
-/* #porta-aberta-rosa {
-    bottom: 381px;
-    right: 1px;
-    visibility: hidden;
-} */
-
-/* #macaneta-rosa {
-    position: relative;
-    bottom: 200px;
-    left: 170px;
-} */
 
 #quadro {
     top: 47px;
@@ -417,9 +395,3 @@ i {
     from {transform: rotateZ(0deg);}
     to {transform: rotateZ(-45deg);}
 }
-
-/* @keyframes macaneta-azul {
-    #macaneta-azul {
-        animation: girar 3s ease;
-    }
-} */
